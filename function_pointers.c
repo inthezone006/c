@@ -6,7 +6,7 @@ int add(int x, int y) {
 
 int func(int x, int y, int(*f)(int, int)) {
     return f(x, y);
-} 
+}
 
 int main() {
     int (*fptr) (int, int) = add;
